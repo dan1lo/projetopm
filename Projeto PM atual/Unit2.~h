@@ -1,0 +1,36 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit2H
+#define Unit2H
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+//---------------------------------------------------------------------------
+class TFormCadastro : public TForm
+{
+__published:	// IDE-managed Components
+        TGroupBox *Gbox_InfoPrio;
+        TLabel *Lbl_TelBina;
+        TEdit *Edt_TelBina;
+        TLabel *Lbl_solici;
+        TEdit *Edt_Solici;
+        TLabel *Lbl_Ocorre;
+        TComboBox *Cbox_Ocorr;
+        TGroupBox *GroupBox1;
+        TLabel *Label1;
+        TLabel *Label2;
+        TLabel *Label3;
+        TLabel *Label4;
+        TLabel *Label5;
+        TComboBox *ComboBox1;
+        TEdit *Caruaru;
+private:	// User declarations
+public:		// User declarations
+        __fastcall TFormCadastro(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TFormCadastro *FormCadastro;
+//---------------------------------------------------------------------------
+#endif

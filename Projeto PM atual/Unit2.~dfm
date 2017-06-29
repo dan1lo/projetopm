@@ -1,0 +1,149 @@
+object FormCadastro: TFormCadastro
+  Left = -4
+  Top = -4
+  Width = 1032
+  Height = 746
+  Caption = 'Formulario de Cadastro'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Gbox_InfoPrio: TGroupBox
+    Left = 8
+    Top = 8
+    Width = 529
+    Height = 145
+    Caption = 'Informa'#231#245'es Prioritarias'
+    TabOrder = 0
+    object Lbl_TelBina: TLabel
+      Left = 8
+      Top = 24
+      Width = 79
+      Height = 13
+      Caption = 'Numero do Bina:'
+    end
+    object Lbl_solici: TLabel
+      Left = 8
+      Top = 56
+      Width = 55
+      Height = 13
+      Caption = 'Solicitante :'
+    end
+    object Lbl_Ocorre: TLabel
+      Left = 8
+      Top = 96
+      Width = 119
+      Height = 13
+      Caption = 'Natureza da Ocorr'#234'ncia :'
+    end
+    object Edt_TelBina: TEdit
+      Left = 128
+      Top = 16
+      Width = 185
+      Height = 21
+      TabOrder = 0
+    end
+    object Edt_Solici: TEdit
+      Left = 128
+      Top = 48
+      Width = 185
+      Height = 21
+      TabOrder = 1
+    end
+    object Cbox_Ocorr: TComboBox
+      Left = 144
+      Top = 88
+      Width = 177
+      Height = 21
+      ItemHeight = 13
+      TabOrder = 2
+      Text = ' Roubo'
+    end
+  end
+  object GroupBox1: TGroupBox
+    Left = 8
+    Top = 160
+    Width = 537
+    Height = 265
+    Caption = 'GroupBox1'
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 8
+      Top = 24
+      Width = 32
+      Height = 13
+      Caption = 'Label1'
+    end
+    object Label2: TLabel
+      Left = 8
+      Top = 56
+      Width = 32
+      Height = 13
+      Caption = 'Label2'
+    end
+    object Label3: TLabel
+      Left = 8
+      Top = 88
+      Width = 32
+      Height = 13
+      Caption = 'Label3'
+    end
+    object Label4: TLabel
+      Left = 8
+      Top = 120
+      Width = 32
+      Height = 13
+      Caption = 'Label4'
+    end
+    object Label5: TLabel
+      Left = 8
+      Top = 152
+      Width = 32
+      Height = 13
+      Caption = 'Label5'
+    end
+    object TEdit
+      Left = 64
+      Top = 24
+      Width = 169
+      Height = 21
+      TabOrder = 0
+    end
+    object TEdit
+      Left = 64
+      Top = 56
+      Width = 169
+      Height = 21
+      TabOrder = 1
+    end
+    object ComboBox1: TComboBox
+      Left = 64
+      Top = 88
+      Width = 169
+      Height = 21
+      ItemHeight = 13
+      TabOrder = 2
+      Text = 'ComboBox1'
+    end
+    object Caruaru: TEdit
+      Left = 64
+      Top = 120
+      Width = 177
+      Height = 21
+      TabOrder = 3
+      Text = 'Caruaru'
+    end
+    object TMemo
+      Left = 64
+      Top = 152
+      Width = 209
+      Height = 81
+      TabOrder = 4
+    end
+  end
+end
